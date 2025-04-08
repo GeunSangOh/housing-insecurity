@@ -1,4 +1,4 @@
-* Load data
+* Load data for factor analysis
 import delimited ".\temp\fa_df.csv", case(preserve) clear
 
 * Tetrachoric matrix
