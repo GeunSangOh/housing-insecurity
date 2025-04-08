@@ -1,3 +1,6 @@
+* gologit2 needs to be installed
+* findit gologit2
+
 * Independent variables
 global varlist BLACK ASIAN OTHER_RACE LATIN NON_US_CITIZEN /* 
 			*/ HH_AGE /* 
@@ -33,4 +36,3 @@ replace COMPOSITE_HI2 = 2 if COMPOSITE_HI2 == 3
 gologit2 COMPOSITE_HI2 $varlist, autofit(0.01) gamma 
 gologit2, or gamma
 gologit2 COMPOSITE_HI2 
-
