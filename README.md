@@ -1,5 +1,5 @@
 # housing-insecurity
-Capstone project in data dcience
+Capstone project in data science
 
 
 
