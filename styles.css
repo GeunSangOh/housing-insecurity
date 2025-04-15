@@ -107,9 +107,10 @@ li {
   background-color: #f7f7f7;
   border-left: 5px solid #4a90e2;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 .project-info p {
   margin: 5px 0;
+  font-weight: normal;
 }
