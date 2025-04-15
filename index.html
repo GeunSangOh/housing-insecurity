@@ -130,6 +130,7 @@
 
     <h3>D. Summary of the Four PPO Models</h3>
       <p> The table below shows relative risk ratios for statistically significant variables in PPO models.<p>
+        
       <img src="./plots/ppo_models.png" alt="Summary of the PPO Models" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
 
     <h2>VI. Phase IV: Build a Predictive Model for Housing Insecurity</h2>
@@ -146,6 +147,12 @@
       <p>The dependent variable is the Preprocessed Composite Index, where 3 and higher in the composite index of housing insecurity were grouped into a single value of 3. 
         The independent variables are the same as in phase III, plus the 'ln_income' variable (the natural logarithm of the ‘Income’). 
         the numerical variables (‘Householder’s age,’ ‘Number of household members,’ ‘ln_Income,’ and ‘Age of house’) were standardized.</p>
+
+    <h3>C. Build Multiclass Classification Models</h3>
+      <p>To build a predictive model for housing insecurity, I explored four multiclass classification models: Random Forest, XGBoost, Logistic Regression, and Support Vector Machine (SVM). 
+        I used 5-fold cross-validation to optimize hyperparameters. </p>
+
+      <img src="./plots/hyperparameters.png" alt="Hyperparameters" style="width: 90%; max-width: 800px; display: block; margin: 20px auto;">
 
 
 
