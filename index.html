@@ -135,15 +135,26 @@
     <h2>VI. Phase IV: Build a Predictive Model for Housing Insecurity</h2>
 
     <h3>A. Preprocessing</h3>
-      <p>I combined all four renter groups to build a predictive model. 
-        And then I grouped values of 3 and higher in the composite index of housing insecurity into a single value of 3.The independent variables are largely the same as those used in Phase III, with two exceptions: the ‘ln_Income’ variable (the natural logarithm of the ‘Income’) was added, and the numerical variables (‘Householder’s age,’ ‘Number of household members,’ ‘ln_Income,’ and ‘Age of house’) were standardized.
-        Next, I split the entire dataset (N=22027) into a training set (80%, N=17621) and a test set (20%, N=4406). 
-        After that, to balance the composite index’s observations across classes, I applied Random Under-sampling and Synthetic Minority Over-sampling Technique Nominal and Continuous features (SMOTE-NC) to the training set. 
-        Before the under- and over-samplings, the class frequencies for the composite index of housing insecurity were 9064 for class 0, 3869 for class 1, 3466 for class 2, and 1222 for class 3. 
-        After the samplings, the frequencies were balanced to 3869 for each class, increasing the total number of observations in the training set to 15476.
+      <p>I combined all four renter groups to build a predictive model.  
+        I split the entire dataset (N=22027) into a training set (80%, N=17621) and a test set (20%, N=4406). 
+        To balance the composite index’s observations across classes, I applied Random Under-sampling and Synthetic Minority Over-sampling Technique Nominal and Continuous features (SMOTE-NC) to the training set. 
+        Before sampling, the class frequencies for the composite index of housing insecurity were: 9064 for class 0, 3869 for class 1, 3466 for class 2, and 1222 for class 3. 
+        After sampling, the frequencies were balanced to 3869 for each class, resulting in a total of 15476 observations in the training set
       </p>
 
+    <h3>B. Establish Variables</h3>
+      <p>The dependent variable is the Preprocessed Composite Index, where 3 and higher in the composite index of housing insecurity were grouped into a single value of 3. 
+        The independent variables are the same as in phase III, plus the 'ln_income' variable (the natural logarithm of the ‘Income’). 
+        the numerical variables (‘Householder’s age,’ ‘Number of household members,’ ‘ln_Income,’ and ‘Age of house’) were standardized.</p>
 
+
+
+
+
+
+
+
+      
       
     <h3>Data Collection</h3>
     <p>In this part, we explain how the data was collected for analysis.</p>
