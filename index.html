@@ -45,7 +45,14 @@
         It can be directly downloaded from <a href="https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip" target="_blank">this link</a>. 
         The 2021 AHS dataset include a total of 64,141 housing unit. From this, I selected a sample of 22,027 housing units corresponding to renter households in metropolitan areas. 
         I divided the sample into four income groups based on the 2021 federal poverty levels. 
-        Using annual income values for 100%, 200%, and 400% of the poverty levels, I have four income groups: very low-income (N=6830), low-income (N=4887), modest-income (N=5318), and higher-income groups (N=4993).</p>
+        Using annual income values for 100%, 200%, and 400% of the poverty levels, I have four income groups: 
+        <ul>
+          <li>Very low-income (N=6830)</li>
+          <li>Low-income (N=4887)</li>
+          <li>Modest-income (N=5318)</li>
+          <li>Higher-income (N=4993)</li>
+        </ul>
+      </p>
 
     <h3>B. Research Approach</h3>
       <img src="./plots/research_approach.png" alt="Research Approach Diagram" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
@@ -124,8 +131,18 @@
     <h3>D. Summary of the Four PPO Models</h3>
       <p> The table below shows relative risk ratios for statistically significant variables in PPO models.<p>
       <img src="./plots/ppo_models.png" alt="Summary of the PPO Models" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
-        
-</p>
+
+    <h2>VI. Phase IV: Build a Predictive Model for Housing Insecurity</h2>
+
+    <h3>A. Preprocessing</h3>
+      <p>I combined all four renter groups to build a predictive model. 
+        And then I grouped values of 3 and higher in the composite index of housing insecurity into a single value of 3.The independent variables are largely the same as those used in Phase III, with two exceptions: the ‘ln_Income’ variable (the natural logarithm of the ‘Income’) was added, and the numerical variables (‘Householder’s age,’ ‘Number of household members,’ ‘ln_Income,’ and ‘Age of house’) were standardized.
+        Next, I split the entire dataset (N=22027) into a training set (80%, N=17621) and a test set (20%, N=4406). 
+        After that, to balance the composite index’s observations across classes, I applied Random Under-sampling and Synthetic Minority Over-sampling Technique Nominal and Continuous features (SMOTE-NC) to the training set. 
+        Before the under- and over-samplings, the class frequencies for the composite index of housing insecurity were 9064 for class 0, 3869 for class 1, 3466 for class 2, and 1222 for class 3. 
+        After the samplings, the frequencies were balanced to 3869 for each class, increasing the total number of observations in the training set to 15476.
+      </p>
+
 
       
     <h3>Data Collection</h3>
