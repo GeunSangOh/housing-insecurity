@@ -50,3 +50,10 @@ p {
   line-height: 1.6;
   margin-bottom: 20px;
 }
+
+.subtitle {
+  font-size: 20px;
+  color: #555;
+  margin-top: -10px;
+  display: block;
+}
