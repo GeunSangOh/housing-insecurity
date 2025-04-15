@@ -86,11 +86,11 @@ li {
 .resource-box ul {
   list-style-type: none;
   padding-left: 0;
-  margin: 10px 0;
+  margin: 2px 0;
   font-weight: normal;
 }
 
 .resource-box li {
-  margin-bottom: 6px;
+  margin-bottom: 2px;
   font-weight: normal;
 }
