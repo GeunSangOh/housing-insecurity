@@ -89,8 +89,8 @@ li {
 }
 
 .resource-box ul {
-  list-style-type: none;
-  padding-left: 0;
+  list-style-type: disc;
+  padding-left: 10;
   margin: 2px 0;
   font-weight: normal;
 }
