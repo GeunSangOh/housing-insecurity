@@ -80,14 +80,17 @@ li {
   margin-top: 0;
   font-size: 16px;  
   color: #333;
+  font-weight: normal;
 }
 
 .resource-box ul {
   list-style-type: none;
   padding-left: 0;
   margin: 10px 0;
+  font-weight: normal;
 }
 
 .resource-box li {
   margin-bottom: 6px;
+  font-weight: normal;
 }
