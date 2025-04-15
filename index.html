@@ -10,50 +10,53 @@
   <div class="container">
     <h1>Who Faces Housing Insecurity:<br>
       <span class="subtitle">An Analysis of Renters in U.S. Metropolitan Areas</span>
-    
-    <h2>I. Introduction</h2>
       
-    <h3>A. Background</h3>
-    <p>Housing insecurity is a growing issue in U.S. metropolitan areas. 20% of renters in 25 major cities experience multiple forms of housing insecurity (e.g., forced moves, poor home conditions, high rent burdens). In recent decades, around 8 million very low-income renters are spending more than 50% of their income on rent, without any housing assistance. From 2022 to 2024, people experiencing homelessness rose rapidly from 582,462 to 771,480, after remaining steady for years. Metropolitan areas has particularly high rates of chronic homelessness. In short, renters in U.S. metropolitan areas, particularly those with low income, are increasingly vulnerable to housing insecurity.</p>
-  
+    <h2>I. Introduction</h2>
+      <h3>A. Background</h3>
+      <p>Housing insecurity is a growing issue in U.S. metropolitan areas. 20% of renters in 25 major cities experience multiple forms of housing insecurity (e.g., forced moves, poor home conditions, high rent burdens). In recent decades, around 8 million very low-income renters are spending more than 50% of their income on rent, without any housing assistance. From 2022 to 2024, people experiencing homelessness rose rapidly from 582,462 to 771,480, after remaining steady for years. Metropolitan areas has particularly high rates of chronic homelessness. In short, renters in U.S. metropolitan areas, particularly those with low income, are increasingly vulnerable to housing insecurity.</p>
+      
     <h3>B. Motivation and Goals</h3>
-    <p>Renters often face multiple forms of insecurity, yet most research has focused on just one aspect. This research addresses the severity of housing insecurity by considering its multiple aspects. With this motivation in mind, the research goals are as follows:
-    <ul>
-      <li>Examine the extent and severity of housing insecurity among renters in U.S. metropolitan areas</li>
-      <li>Identify key renter characteristics that are strong predictors of housing insecurity</li>
-      <li>Inform policies that can improve renters’ housing security</li>
-    </ul>
-    </p>
+      <p>Renters often face multiple forms of insecurity, yet most research has focused on just one aspect. This research addresses the severity of housing insecurity by considering its multiple aspects. With this motivation in mind, the research goals are as follows:
+      <ul>
+        <li>Examine the extent and severity of housing insecurity among renters in U.S. metropolitan areas</li>
+        <li>Identify key renter characteristics that are strong predictors of housing insecurity</li>
+        <li>Inform policies that can improve renters’ housing security</li>
+      </ul>
+      </p>
 
     <h3>C. Research Questions</h3>
-    <ul>
-      <li>How extensive and severe is housing insecurity in U.S. metropolitan areas?</li>
-      <li>What characteristics best represent renters facing housing insecurity?</li>
-      <li>Do housing policies, such as subsidized housing and rental assistance, contribute to addressing housing insecurity?</li>
-      <li>What characteristics best predict severe housing insecurity?</li>
-    </ul>
+      <ul>
+        <li>How extensive and severe is housing insecurity in U.S. metropolitan areas?</li>
+        <li>What characteristics best represent renters facing housing insecurity?</li>
+        <li>Do housing policies, such as subsidized housing and rental assistance, contribute to addressing housing insecurity?</li>
+        <li>What characteristics best predict severe housing insecurity?</li>
+      </ul>
 
     <h2>II. Dataset and Research Approach</h2>
       
     <h3>A. Dataset</h3>
-    <p>This research used the 2021 American Housing Survey (AHS) dataset. It can be directly downloaded from <a href="https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip" target="_blank">this link</a>. The 2021 AHS dataset include a total of 64,141 housing unit. From this, I selected a sample of 22,027 housing units corresponding to renter households in metropolitan areas.</p>                                                                                                                                                                                                                                                                                                                            
-
-    <p>I divided the sample into four income groups based on the 2021 federal poverty levels. Using annual income values for 100%, 200%, and 400% of the poverty levels, I have four income groups: very low-income (N=6830), low-income (N=4887), modest-income (N=5318), and higher-income groups (N=4993).</p>
+      <p>This research used the 2021 American Housing Survey (AHS) dataset. It can be directly downloaded from <a href="https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip" target="_blank">this link</a>. The 2021 AHS dataset include a total of 64,141 housing unit. From this, I selected a sample of 22,027 housing units corresponding to renter households in metropolitan areas. I divided the sample into four income groups based on the 2021 federal poverty levels. Using annual income values for 100%, 200%, and 400% of the poverty levels, I have four income groups: very low-income (N=6830), low-income (N=4887), modest-income (N=5318), and higher-income groups (N=4993).</p>
 
     <h3>B. Research Approach</h3>
-    <img src="./plots/research_approach.png" alt="Research Approach Diagram" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
+      <img src="./plots/research_approach.png" alt="Research Approach Diagram" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
 
     <h2>III. Phase I: Explore Housing Insecurity Predictors</h2>
 
     <h3>A. Select Housing Insecurity Predictors</h3>
-    <p>From the AHS dataset, I selected several characteristics of renters (including householder and household characteristics), houses, and communities, along with housing policies and regions, as the predictors. The table below presents summary statistics for the variables (predictors) selected for the analysis.</p>
-    <img src="./plots/variable_summary_statistics.png" alt="Variable Summary Table" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
+      <p>From the AHS dataset, I selected several characteristics of renters (including householder and household characteristics), houses, and communities, along with housing policies and regions, as the predictors. The table below presents summary statistics for the variables (predictors) selected for the analysis.</p>
+      <img src="./plots/variable_summary_statistics.png" alt="Variable Summary Table" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
 
     <h3>B. Exploratory Data Analysis (EDA)</h3>
-    <img src="./plots/householder.jpg" alt="Householder Characteristics Plots" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
-    <img src="./plots/household.jpg" alt="Household Characteristics Plots" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
-    <img src="./plots/community.jpg" alt="Community Characteristics Plots" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
-    <img src="./plots/housing_policies.jpg" alt="Housing Policies Plots" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
+      <img src="./plots/householder.jpg" alt="Householder Characteristics Plots" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
+      <img src="./plots/household.jpg" alt="Household Characteristics Plots" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
+      <img src="./plots/community.jpg" alt="Community Characteristics Plots" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
+      <img src="./plots/housing_policies.jpg" alt="Housing Policies Plots" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
+  
+    <h2>IV. Create a Composite Index of Housing Insecurity</h2>
+
+    <h3>A. Determine Key Dimensions of Housing Insecurity</h3>
+      <p>Based on a review of the existing literature, I determined key dimensions of housing insecurity as Residential Instability, Unfitness and Inadequacy, and Unaffordability</p>
+
       
     <h3>Objectives</h3>
     <p>The objectives section outlines the goals the report aims to achieve.</p>
