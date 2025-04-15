@@ -112,5 +112,6 @@ li {
 
 .project-info p {
   margin: 5px 0;
+  line-height: 1.2;
   font-weight: normal;
 }
