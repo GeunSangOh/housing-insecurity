@@ -100,3 +100,16 @@ li {
   font-size: 13.5px;
   font-weight: normal;
 }
+
+.project-info {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-left: 5px solid #4a90e2;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.project-info p {
+  margin: 5px 0;
+}
