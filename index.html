@@ -13,10 +13,16 @@
       
     <h2>I. Introduction</h2>
       <h3>A. Background</h3>
-      <p>Housing insecurity is a growing issue in U.S. metropolitan areas. 20% of renters in 25 major cities experience multiple forms of housing insecurity (e.g., forced moves, poor home conditions, high rent burdens). In recent decades, around 8 million very low-income renters are spending more than 50% of their income on rent, without any housing assistance. From 2022 to 2024, people experiencing homelessness rose rapidly from 582,462 to 771,480, after remaining steady for years. Metropolitan areas has particularly high rates of chronic homelessness. In short, renters in U.S. metropolitan areas, particularly those with low income, are increasingly vulnerable to housing insecurity.</p>
+      <p>Housing insecurity is a growing issue in U.S. metropolitan areas. 20% of renters in 25 major cities experience multiple forms of housing insecurity 
+        (e.g., forced moves, poor home conditions, high rent burdens). 
+        In recent decades, around 8 million very low-income renters are spending more than 50% of their income on rent, without any housing assistance. 
+        From 2022 to 2024, people experiencing homelessness rose rapidly from 582,462 to 771,480, after remaining steady for years. 
+        Metropolitan areas has particularly high rates of chronic homelessness. 
+        In short, renters in U.S. metropolitan areas, particularly those with low income, are increasingly vulnerable to housing insecurity.</p>
       
     <h3>B. Motivation and Goals</h3>
-      <p>Renters often face multiple forms of insecurity, yet most research has focused on just one aspect. This research addresses the severity of housing insecurity by considering its multiple aspects. With this motivation in mind, the research goals are as follows:
+      <p>Renters often face multiple forms of insecurity, yet most research has focused on just one aspect. 
+        This research addresses the severity of housing insecurity by considering its multiple aspects. With this motivation in mind, the research goals are as follows:
       <ul>
         <li>Examine the extent and severity of housing insecurity among renters in U.S. metropolitan areas</li>
         <li>Identify key renter characteristics that are strong predictors of housing insecurity</li>
@@ -35,7 +41,11 @@
     <h2>II. Dataset and Research Approach</h2>
       
     <h3>A. Dataset</h3>
-      <p>This research used the 2021 American Housing Survey (AHS) dataset. It can be directly downloaded from <a href="https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip" target="_blank">this link</a>. The 2021 AHS dataset include a total of 64,141 housing unit. From this, I selected a sample of 22,027 housing units corresponding to renter households in metropolitan areas. I divided the sample into four income groups based on the 2021 federal poverty levels. Using annual income values for 100%, 200%, and 400% of the poverty levels, I have four income groups: very low-income (N=6830), low-income (N=4887), modest-income (N=5318), and higher-income groups (N=4993).</p>
+      <p>This research used the 2021 American Housing Survey (AHS) dataset. 
+        It can be directly downloaded from <a href="https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip" target="_blank">this link</a>. 
+        The 2021 AHS dataset include a total of 64,141 housing unit. From this, I selected a sample of 22,027 housing units corresponding to renter households in metropolitan areas. 
+        I divided the sample into four income groups based on the 2021 federal poverty levels. 
+        Using annual income values for 100%, 200%, and 400% of the poverty levels, I have four income groups: very low-income (N=6830), low-income (N=4887), modest-income (N=5318), and higher-income groups (N=4993).</p>
 
     <h3>B. Research Approach</h3>
       <img src="./plots/research_approach.png" alt="Research Approach Diagram" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
@@ -43,7 +53,8 @@
     <h2>III. Phase I: Explore Housing Insecurity Predictors</h2>
 
     <h3>A. Select Housing Insecurity Predictors</h3>
-      <p>From the AHS dataset, I selected several characteristics of renters (including householder and household characteristics), houses, and communities, along with housing policies and regions, as the predictors. The table below presents summary statistics for the variables (predictors) selected for the analysis.</p>
+      <p>From the AHS dataset, I selected several characteristics of renters (including householder and household characteristics), houses, and communities, along with housing policies and regions, as the predictors. 
+        The table below presents summary statistics for the variables (predictors) selected for the analysis.</p>
 
       <img src="./plots/variable_summary_statistics.png" alt="Variable Summary Table" style="width: 100%; max-width: 800px; display: block; margin: 20px auto;">
 
@@ -65,9 +76,23 @@
       <p>To measure the key dimensions of housing insecurity, I selected several variables for each dimension from the 2021 AHS dataset and transformed them into nine binary indicators.</p>
 
       <img src="./plots/indicators.png" alt="Binary Indicators" style="width: 90%; max-width: 800px; display: block; margin: 20px auto;">
+
+    <h3>C. Factor Analysis to Validate Dimensions of Housing Insecurity</h3>
+      <p>I conducted an exploratory factor analysis (EFA) to examine whether the underlying structure of the nine indicators aligns with the three dimensions of housing security. 
+        Since the indicators are binary, I used tetrachoric correlations to construct a correlation matri. 
+        Tetrachoric correlations are specifically designed for binary variables and assume that the underlying relationship between two binary variables follows a bivariate normal distribution. 
+        This approach ensures that the underlying structure is properly captured, accounting for the nature of the data, and provides a more reliable basis for validating the dimensions of housing security.</p>
+      <p>The resulting tetrachoric correlation matrix was then used in the EFA. 
+        I applied an oblimin oblique rotation, which allows the factors (dimensions) to be correlated. 
+        This rotation method was chosen because there seems to be little reason to require that the three key dimensions of housing insecurity be uncorrelated.</p>
+      <p>The EFA results confirm the three-dimensional structure is appropriate, with the nine indicators effectively representing the three dimensions. 
+        The scree plot has an elbow point at Factor 4. Additionally, according to Kaiser’s criterion, which recommends retaining only factors with eigenvalues greater than 1, this criterion is met up to Factor 3. 
+        These results support the adequacy of retaining three dimensions. The high factor loadings of the nine indicators provide evidence for the validity of the three key dimensions they represent.</p>
+        
       
-    <h3>Objectives</h3>
-    <p>The objectives section outlines the goals the report aims to achieve.</p>
+
+
+      
 
     <h2>Methodology</h2>
     <p>This section describes the methods used to gather data and perform analysis.</p>
