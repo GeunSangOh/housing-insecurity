@@ -1,5 +1,4 @@
-# Who Faces Housing Insecurity:  
-## An Analysis of Renters in U.S. Metropolitan Areas
+# Who Faces Housing Insecurity:  <br> An Analysis of Renters in U.S. Metropolitan Areas
 
 Capstone Project in Data Science
 
