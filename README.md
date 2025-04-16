@@ -14,7 +14,7 @@ Download the Dataset: [American Housing Survey 2021 National Public Use File](ht
 
 
 ### Webpage
-Visit the Page: <a href="https://geunsangoh.github.io/housing-insecurity/" target="_blank">Project Report Webpage</a>
+Visit the Page: [Project Report Webpage](https://geunsangoh.github.io/housing-insecurity/)
 
 
 ### Capstone Full Report
