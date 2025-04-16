@@ -1,6 +1,5 @@
+*Capstone Project in Data Science*
 # Who Faces Housing Insecurity:  <br> An Analysis of Renters in U.S. Metropolitan Areas
-
-Capstone Project in Data Science
 
 ## Abstract
 
