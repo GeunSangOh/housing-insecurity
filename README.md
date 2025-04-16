@@ -1,4 +1,4 @@
-*Spring 2025 Capstone Project in Data Science*
+*Capstone Project in Data Science (Fall 2024–Spring 2025)*
 # Who Faces Housing Insecurity:  <br> An Analysis of Renters in U.S. Metropolitan Areas
 
 ### Abstract
