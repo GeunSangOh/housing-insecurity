@@ -52,7 +52,7 @@
       <ul>
         <li>Examine the extent and severity of housing insecurity among renters in U.S. metropolitan areas</li>
         <li>Apply statistical and machine learning methods to identify renter characteristics that predict housing insecurity </li>
-        <li>Inform policies that can improve renters’ housing security</li>
+        <li>Inform policies that can improve renters' housing security</li>
       </ul>
       </p>
 
@@ -157,15 +157,15 @@
     <h3>A. Preprocessing</h3>
       <p>I combined all four renter groups to build a predictive model.  
         I split the entire dataset (N=22027) into a training set (80%, N=17621) and a test set (20%, N=4406). 
-        To balance the composite index’s observations across classes, I applied Random Under-sampling and Synthetic Minority Over-sampling Technique Nominal and Continuous features (SMOTE-NC) to the training set. 
+        To balance the composite index's observations across classes, I applied Random Under-sampling and Synthetic Minority Over-sampling Technique Nominal and Continuous features (SMOTE-NC) to the training set. 
         Before sampling, the class frequencies for the composite index of housing insecurity were: 9064 for class 0, 3869 for class 1, 3466 for class 2, and 1222 for class 3. 
         After sampling, the frequencies were balanced to 3869 for each class, resulting in a total of 15476 observations in the training set
       </p>
 
     <h3>B. Establish Variables</h3>
       <p>The dependent variable is the Preprocessed Composite Index, where 3 and higher in the composite index of housing insecurity were grouped into a single value of 3. 
-        The independent variables are the same as in phase III, plus the 'ln_income' variable (the natural logarithm of the ‘Income’). 
-        the numerical variables (‘Householder’s age,’ ‘Number of household members,’ ‘ln_Income,’ and ‘Age of house’) were standardized.</p>
+        The independent variables are the same as in phase III, plus the 'ln_income' variable (the natural logarithm of the 'Income'). 
+        the numerical variables ('Householder's age,' 'Number of household members,' 'ln_Income,' and 'Age of house') were standardized.</p>
 
     <h3>C. Build Multiclass Classification Models</h3>
       <p>To build a predictive model for housing insecurity, I explored four multiclass classification models: Random Forest, XGBoost, Logistic Regression, and Support Vector Machine (SVM). 
@@ -180,8 +180,8 @@
 
     <h3>E. Feature Importance for the Best Model</h3>
       <p>I examined feature importance and beeswarm plots for XGBoost, the best-performing model, using SHAP (Shapley Additive exPlanations) values. 
-        SHAP is a method for explaining the output of machine learning models by quantifying the contribution of each feature to the model’s prediction. 
-        SHAP values are calculated based on Shapley values, which represent the weighted average of a feature’s marginal contributions across all possible subsets of features. 
+        SHAP is a method for explaining the output of machine learning models by quantifying the contribution of each feature to the model's prediction. 
+        SHAP values are calculated based on Shapley values, which represent the weighted average of a feature's marginal contributions across all possible subsets of features. 
         This approach ensures scale-invariance, meaning that SHAP values prevent distortions and misinterpretations caused by scaling features.</p>
       <p>Below are the plots for composite index values of 0 and 3+, which provide meaningful insights.
         The former illustrates the top 10 features that determine whether a household is doing well or facing housing insecurity, while the latter illustrates the top 10 features that determine whether a household is experiencing severe housing insecurity.</p>
@@ -209,7 +209,7 @@
     <h3>D. Discussion #4: What characteristics best predict severe housing insecurity?</h3>
       <p>Income is the most important characteristic in determining both housing security and severe housing insecurity. 
         However, its importance decreases when determining severe housing insecurity compared to housing insecurity. 
-        Other renter and community characteristics (‘High levels of petty crime,’ ‘Presence (or absence) of seniors,’ ‘Householder age and gender,’ and ‘Number of household members’) contribute more to determining severe housing insecurity than to determining housing insecurity, even though their contribution is still lower than that of income. 
+        Other renter and community characteristics ('High levels of petty crime,' 'Presence (or absence) of seniors,' 'Householder age and gender,' and 'Number of household members') contribute more to determining severe housing insecurity than to determining housing insecurity, even though their contribution is still lower than that of income. 
         This suggests the possibility that renter and community characteristics play a crucial role in renters facing severe housing insecurity. 
         To better understand the characteristics contributing to severe housing insecurity, future research should closely examine the household and community conditions of renters who are facing this issue.</p>
 
