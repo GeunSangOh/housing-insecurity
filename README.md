@@ -11,6 +11,7 @@ This research examines housing insecurity among renters in U.S. metropolitan are
 
 ### Full Project Report & Presentation
 [View Report](https://github.com/GeunSangOh/housing-insecurity/blob/main/FinalReport_Who%20face%20housing%20insecurity.pdf)
+
 [View Presentation Slides](https://github.com/GeunSangOh/housing-insecurity/blob/main/Capstone_Presentation.pdf)
 
 ### Dataset
