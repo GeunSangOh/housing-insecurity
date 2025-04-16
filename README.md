@@ -5,6 +5,7 @@ Capstone Project in Data Science
 ### Abstract
 
 This research examines housing insecurity among renters in U.S. metropolitan areas using the 2021 American Housing Survey dataset. A composite index of housing insecurity was developed through factor analysis, and partial proportional odds (PPO) models were used to identify its predictors across different income levels. Machine learning techniques, including Random Forest, XGBoost, Logistic Regression, and Support Vector Machine, were applied to build a predictive model. Findings show that nearly half of renters face housing insecurity, with very low-income renters being the most vulnerable. Key predictors include race, gender, age, household size, the presence of seniors or disabled members, and community characteristics such as no good schools, high levels of crime, and high disaster risk. Housing policies like subsidized housing and rental assistance significantly reduce housing insecurity. This research emphasizes the need for targeted policies for very low-income renters and call for further research into renter and community characteristics to more effectively address severe housing insecurity.
+
 *Keywords: housing insecurity, metropolitan areas, renters, partial proportional odds model, machine learning*
 
 
