@@ -8,5 +8,10 @@ This research examines housing insecurity among renters in U.S. metropolitan are
 *Keywords: housing insecurity, metropolitan areas, renters, partial proportional odds model, machine learning*
 
 ### Dataset
-Data download link: 
-[American Housing Survey 2021 National Public Use File](https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip)
+Download the Dataset: [American Housing Survey 2021 National Public Use File](https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip)
+
+### Webpage
+Visit the Page: [Project Report Webpage](https://geunsangoh.github.io/housing-insecurity/)
+
+### Capstone Full Report
+Read the Report: [Full Project Report](https://github.com/GeunSangOh/housing-insecurity/blob/main/FinalReport_Who%20face%20housing%20insecurity.pdf)
