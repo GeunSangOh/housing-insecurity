@@ -7,7 +7,7 @@ This research examines housing insecurity among renters in U.S. metropolitan are
 *Keywords: housing insecurity, metropolitan areas, renters, partial proportional odds model, machine learning*
 
 ### Webpage
-Visit the Page: [Project Report Webpage](https://geunsangoh.github.io/housing-insecurity/)
+Visit the Page: [Report Summary Webpage](https://geunsangoh.github.io/housing-insecurity/)
 
 ### Capstone Full Report
 Read the Report: [Full Project Report](https://github.com/GeunSangOh/housing-insecurity/blob/main/FinalReport_Who%20face%20housing%20insecurity.pdf)
