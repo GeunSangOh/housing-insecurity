@@ -1,7 +1,6 @@
-Capstone Project in Data Science
 # Who Faces Housing Insecurity: An Analysis of Renters in U.S. Metropolitan Areas
 
-
+Capstone Project in Data Science
 
 ### Abstract
 
@@ -9,7 +8,7 @@ This research examines housing insecurity among renters in U.S. metropolitan are
 
 *Keywords: housing insecurity, metropolitan areas, renters, partial proportional odds model, machine learning*
 
-
+### Dataset
 
 Data download link: 
 [American Housing Survey 2021 National Public Use File](https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip)
