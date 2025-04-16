@@ -1,4 +1,4 @@
-*Capstone Project in Data Science*
+*Capstone Project in Data Science (Fall 2024–Spring 2025)*
 # Who Faces Housing Insecurity:  <br> An Analysis of Renters in U.S. Metropolitan Areas
 
 ### Abstract
@@ -6,8 +6,8 @@ This research examines housing insecurity among renters in U.S. metropolitan are
 
 *Keywords: housing insecurity, metropolitan areas, renters, partial proportional odds model, machine learning*
 
-### Project Summary Webpage
-[Visit Page](https://geunsangoh.github.io/housing-insecurity/)
+### Project Summary
+[Visit Webpage](https://geunsangoh.github.io/housing-insecurity/)
 
 ### Presentation Slides
 [View Presentation Slides](https://github.com/GeunSangOh/housing-insecurity/blob/main/Capstone_Presentation.pdf)
